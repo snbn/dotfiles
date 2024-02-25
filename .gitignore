@@ -15,7 +15,7 @@
 !.bash_profile
 !.bashrc
 
-!.install.sh
+!install.sh
 
 # ignore emacs backup files
 *~
