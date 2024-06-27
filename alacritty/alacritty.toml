@@ -5,3 +5,19 @@ opacity = 0.8
 [colors.primary]
 foreground = "#eedece"
 background = "#202230"
+
+[font.normal]
+family = "hermit"
+style = "Regular"
+
+[font.italic]
+family = "hermit"
+style = "Italic"
+
+[font.bold]
+family = "hermit"
+style = "Bold"
+
+[font.bold_italic]
+family = "hermit"
+style = "Bold Italic"
