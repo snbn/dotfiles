@@ -1,26 +1,6 @@
-/*
-/.**
-
-!/alacritty
-!/conky
-!mpd.conf
-!/ncmpcpp
-!/polybar
-!/ranger
-
-!/i3
-!.Xresources
-!picom.conf
-
-!.bash_profile
-!.bashrc
-
-!install.sh
 
 # ignore emacs backup files
 *~
 
 # ignore all log files
 *.log
-
-!.gitignore
