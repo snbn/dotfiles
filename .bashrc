@@ -23,4 +23,20 @@ CWD=$'\w'
 GIT_STATUS='$(__git_ps1 " (%s)")'
 PROMPT=$'\$'
 PS1="${DEFAULT_FG}${CWD}$RESET$GIT_STATUS ${PROMPT} "
+
 . "$HOME/.cargo/env"
+
+[ -f "$HOME/.ghcup/env" ] && . "$HOME/.ghcup/env" # ghcup-env
+
+# fnm - Fast Node Manager
+eval "$(fnm env)"
+
+export RUSTC_WRAPPER=sccache
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+
+# deno
+export DENO_INSTALL="$HOME/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
