@@ -11,6 +11,8 @@ declare -A setting=(
     ["picom.conf"]="$HOME/.config/picom.conf"
     ["mpd.conf"]="$HOME/.config/mpd/mpd.conf"
     [".Xresources"]="$HOME/.Xresources"
+    [".xbindkeysrc"]="$HOME/.xbindkeysrc"
+    [".xinitrc"]="$HOME/.xinitrc"
     [".bash_profile"]="$HOME/.bash_profile"
     [".bashrc"]="$HOME/.bashrc"
 )
