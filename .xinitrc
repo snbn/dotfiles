@@ -50,6 +50,12 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# NVidiaのGPUを使用する際、モニタをスタンバイモードに移行させると
+# 復帰時にpicomがフリーズする。
+# 仕方ないので、時間経過で勝手にスタンバイモードに入らないようにする。
+xset s off -dpms
+
+# launch the desktop environment
 fcitx5 &
 sh ~/.fehbg &
 xbindkeys
